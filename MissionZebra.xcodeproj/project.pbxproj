@@ -11,12 +11,19 @@
 		4404FB452F40A3700010B9E0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB442F40A3700010B9E0 /* Tests_iOSLaunchTests.swift */; };
 		4404FB4F2F40A3700010B9E0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB4E2F40A3700010B9E0 /* Tests_macOS.swift */; };
 		4404FB512F40A3700010B9E0 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */; };
-		4404FB522F40A3700010B9E0 /* MissionZebraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2A2F40A36E0010B9E0 /* MissionZebraApp.swift */; };
-		4404FB532F40A3700010B9E0 /* MissionZebraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2A2F40A36E0010B9E0 /* MissionZebraApp.swift */; };
 		4404FB542F40A3700010B9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2B2F40A36E0010B9E0 /* ContentView.swift */; };
 		4404FB552F40A3700010B9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2B2F40A36E0010B9E0 /* ContentView.swift */; };
 		4404FB562F40A3700010B9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */; };
 		4404FB572F40A3700010B9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */; };
+		4423C1592F449EFE004ACA06 /* Navigation in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1542F449EFE004ACA06 /* Navigation */; };
+		4423C15A2F449EFE004ACA06 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1552F449EFE004ACA06 /* Shared */; };
+		4423C15C2F449EFE004ACA06 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1572F449EFE004ACA06 /* Features */; };
+		4423C15E2F449F1D004ACA06 /* MissionZebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C15D2F449F1D004ACA06 /* MissionZebra.swift */; };
+		4423C1752F44A3F3004ACA06 /* ChildData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1702F44A3F3004ACA06 /* ChildData.swift */; };
+		4423C1762F44A3F3004ACA06 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1712F44A3F3004ACA06 /* Reward.swift */; };
+		4423C1772F44A3F3004ACA06 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1722F44A3F3004ACA06 /* Child.swift */; };
+		4423C1782F44A3F3004ACA06 /* Accessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1732F44A3F3004ACA06 /* Accessory.swift */; };
+		4423C1792F44A3F3004ACA06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1742F44A3F3004ACA06 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4404FB2A2F40A36E0010B9E0 /* MissionZebraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionZebraApp.swift; sourceTree = "<group>"; };
 		4404FB2B2F40A36E0010B9E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4404FB312F40A36F0010B9E0 /* MissionZebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionZebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,15 @@
 		4404FB4A2F40A3700010B9E0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4404FB4E2F40A3700010B9E0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		4423C1542F449EFE004ACA06 /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Navigation; path = ../../../../../Downloads/Samenvatting/Navigation; sourceTree = "<group>"; };
+		4423C1552F449EFE004ACA06 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; path = ../../../../../Downloads/Samenvatting/Shared; sourceTree = "<group>"; };
+		4423C1572F449EFE004ACA06 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = ../../../../../Downloads/Samenvatting/Features; sourceTree = "<group>"; };
+		4423C15D2F449F1D004ACA06 /* MissionZebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionZebra.swift; sourceTree = "<group>"; };
+		4423C1702F44A3F3004ACA06 /* ChildData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildData.swift; sourceTree = "<group>"; };
+		4423C1712F44A3F3004ACA06 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		4423C1722F44A3F3004ACA06 /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		4423C1732F44A3F3004ACA06 /* Accessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessory.swift; sourceTree = "<group>"; };
+		4423C1742F44A3F3004ACA06 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +101,12 @@
 		4404FB242F40A36D0010B9E0 = {
 			isa = PBXGroup;
 			children = (
+				4423C16F2F44A3F3004ACA06 /* Models */,
+				4423C15D2F449F1D004ACA06 /* MissionZebra.swift */,
 				4404FB292F40A36D0010B9E0 /* Shared */,
+				4423C1572F449EFE004ACA06 /* Features */,
+				4423C1542F449EFE004ACA06 /* Navigation */,
+				4423C1552F449EFE004ACA06 /* Shared */,
 				4404FB382F40A36F0010B9E0 /* macOS */,
 				4404FB412F40A3700010B9E0 /* Tests iOS */,
 				4404FB4D2F40A3700010B9E0 /* Tests macOS */,
@@ -97,7 +117,6 @@
 		4404FB292F40A36D0010B9E0 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4404FB2A2F40A36E0010B9E0 /* MissionZebraApp.swift */,
 				4404FB2B2F40A36E0010B9E0 /* ContentView.swift */,
 				4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */,
 			);
@@ -139,6 +158,19 @@
 				4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4423C16F2F44A3F3004ACA06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4423C1702F44A3F3004ACA06 /* ChildData.swift */,
+				4423C1712F44A3F3004ACA06 /* Reward.swift */,
+				4423C1722F44A3F3004ACA06 /* Child.swift */,
+				4423C1732F44A3F3004ACA06 /* Accessory.swift */,
+				4423C1742F44A3F3004ACA06 /* Task.swift */,
+			);
+			name = Models;
+			path = ../../../../../Downloads/Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4423C1592F449EFE004ACA06 /* Navigation in Resources */,
+				4423C15A2F449EFE004ACA06 /* Shared in Resources */,
+				4423C15C2F449EFE004ACA06 /* Features in Resources */,
 				4404FB562F40A3700010B9E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,8 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4423C1752F44A3F3004ACA06 /* ChildData.swift in Sources */,
+				4423C1762F44A3F3004ACA06 /* Reward.swift in Sources */,
+				4423C1792F44A3F3004ACA06 /* Task.swift in Sources */,
 				4404FB542F40A3700010B9E0 /* ContentView.swift in Sources */,
-				4404FB522F40A3700010B9E0 /* MissionZebraApp.swift in Sources */,
+				4423C1782F44A3F3004ACA06 /* Accessory.swift in Sources */,
+				4423C15E2F449F1D004ACA06 /* MissionZebra.swift in Sources */,
+				4423C1772F44A3F3004ACA06 /* Child.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4404FB552F40A3700010B9E0 /* ContentView.swift in Sources */,
-				4404FB532F40A3700010B9E0 /* MissionZebraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
