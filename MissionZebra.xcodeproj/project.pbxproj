@@ -11,19 +11,34 @@
 		4404FB452F40A3700010B9E0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB442F40A3700010B9E0 /* Tests_iOSLaunchTests.swift */; };
 		4404FB4F2F40A3700010B9E0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB4E2F40A3700010B9E0 /* Tests_macOS.swift */; };
 		4404FB512F40A3700010B9E0 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */; };
-		4404FB542F40A3700010B9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2B2F40A36E0010B9E0 /* ContentView.swift */; };
-		4404FB552F40A3700010B9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404FB2B2F40A36E0010B9E0 /* ContentView.swift */; };
-		4404FB562F40A3700010B9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */; };
-		4404FB572F40A3700010B9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */; };
-		4423C1592F449EFE004ACA06 /* Navigation in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1542F449EFE004ACA06 /* Navigation */; };
-		4423C15A2F449EFE004ACA06 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1552F449EFE004ACA06 /* Shared */; };
-		4423C15C2F449EFE004ACA06 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 4423C1572F449EFE004ACA06 /* Features */; };
-		4423C15E2F449F1D004ACA06 /* MissionZebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C15D2F449F1D004ACA06 /* MissionZebra.swift */; };
-		4423C1752F44A3F3004ACA06 /* ChildData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1702F44A3F3004ACA06 /* ChildData.swift */; };
-		4423C1762F44A3F3004ACA06 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1712F44A3F3004ACA06 /* Reward.swift */; };
-		4423C1772F44A3F3004ACA06 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1722F44A3F3004ACA06 /* Child.swift */; };
-		4423C1782F44A3F3004ACA06 /* Accessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1732F44A3F3004ACA06 /* Accessory.swift */; };
-		4423C1792F44A3F3004ACA06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423C1742F44A3F3004ACA06 /* Task.swift */; };
+		44A3954D2F4769890076B679 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3954B2F4769890076B679 /* APIEndpoints.swift */; };
+		44A3954E2F4769890076B679 /* Accessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3954C2F4769890076B679 /* Accessory.swift */; };
+		44A3956B2F4769AF0076B679 /* RewardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395502F4769AF0076B679 /* RewardCardView.swift */; };
+		44A3956C2F4769AF0076B679 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395512F4769AF0076B679 /* Typography.swift */; };
+		44A3956D2F4769AF0076B679 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395522F4769AF0076B679 /* Task.swift */; };
+		44A3956F2F4769AF0076B679 /* RewardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395542F4769AF0076B679 /* RewardRepository.swift */; };
+		44A395702F4769AF0076B679 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395552F4769AF0076B679 /* NetworkManager.swift */; };
+		44A395712F4769AF0076B679 /* ChildRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395562F4769AF0076B679 /* ChildRepository.swift */; };
+		44A395722F4769AF0076B679 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395572F4769AF0076B679 /* Colors.swift */; };
+		44A395732F4769AF0076B679 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395582F4769AF0076B679 /* WelcomeViewModel.swift */; };
+		44A395742F4769AF0076B679 /* ChildData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395592F4769AF0076B679 /* ChildData.swift */; };
+		44A395752F4769AF0076B679 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955A2F4769AF0076B679 /* View+Extensions.swift */; };
+		44A395762F4769AF0076B679 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955B2F4769AF0076B679 /* NetworkError.swift */; };
+		44A395772F4769AF0076B679 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955C2F4769AF0076B679 /* LoadingView.swift */; };
+		44A395782F4769AF0076B679 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955D2F4769AF0076B679 /* AppRoute.swift */; };
+		44A395792F4769B00076B679 /* ChildDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955E2F4769AF0076B679 /* ChildDashboardView.swift */; };
+		44A3957A2F4769B00076B679 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3955F2F4769AF0076B679 /* TaskRepository.swift */; };
+		44A3957B2F4769B00076B679 /* ChildDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395602F4769AF0076B679 /* ChildDashboardViewModel.swift */; };
+		44A3957D2F4769B00076B679 /* ZebraShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395622F4769AF0076B679 /* ZebraShopView.swift */; };
+		44A3957E2F4769B00076B679 /* ZebraShopRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395632F4769AF0076B679 /* ZebraShopRepository.swift */; };
+		44A3957F2F4769B00076B679 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395642F4769AF0076B679 /* SoundService.swift */; };
+		44A395802F4769B00076B679 /* MissionZebraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395652F4769AF0076B679 /* MissionZebraApp.swift */; };
+		44A395812F4769B00076B679 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395662F4769AF0076B679 /* Child.swift */; };
+		44A395822F4769B00076B679 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395672F4769AF0076B679 /* Reward.swift */; };
+		44A395832F4769B00076B679 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395682F4769AF0076B679 /* TaskCardView.swift */; };
+		44A395842F4769B00076B679 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A395692F4769AF0076B679 /* SessionService.swift */; };
+		44A3958F2F4787FE0076B679 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3958D2F4787FE0076B679 /* WelcomeView.swift */; };
+		44A395902F4787FE0076B679 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3958E2F4787FE0076B679 /* NavigationCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4404FB2B2F40A36E0010B9E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4404FB312F40A36F0010B9E0 /* MissionZebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionZebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4404FB372F40A36F0010B9E0 /* MissionZebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionZebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4404FB392F40A36F0010B9E0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -55,15 +68,34 @@
 		4404FB4A2F40A3700010B9E0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4404FB4E2F40A3700010B9E0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		4423C1542F449EFE004ACA06 /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Navigation; path = ../../../../../Downloads/Samenvatting/Navigation; sourceTree = "<group>"; };
-		4423C1552F449EFE004ACA06 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; path = ../../../../../Downloads/Samenvatting/Shared; sourceTree = "<group>"; };
-		4423C1572F449EFE004ACA06 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = ../../../../../Downloads/Samenvatting/Features; sourceTree = "<group>"; };
-		4423C15D2F449F1D004ACA06 /* MissionZebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionZebra.swift; sourceTree = "<group>"; };
-		4423C1702F44A3F3004ACA06 /* ChildData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildData.swift; sourceTree = "<group>"; };
-		4423C1712F44A3F3004ACA06 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
-		4423C1722F44A3F3004ACA06 /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
-		4423C1732F44A3F3004ACA06 /* Accessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessory.swift; sourceTree = "<group>"; };
-		4423C1742F44A3F3004ACA06 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		44A3954B2F4769890076B679 /* APIEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		44A3954C2F4769890076B679 /* Accessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessory.swift; sourceTree = "<group>"; };
+		44A395502F4769AF0076B679 /* RewardCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardCardView.swift; sourceTree = "<group>"; };
+		44A395512F4769AF0076B679 /* Typography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		44A395522F4769AF0076B679 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		44A395542F4769AF0076B679 /* RewardRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardRepository.swift; sourceTree = "<group>"; };
+		44A395552F4769AF0076B679 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		44A395562F4769AF0076B679 /* ChildRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRepository.swift; sourceTree = "<group>"; };
+		44A395572F4769AF0076B679 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		44A395582F4769AF0076B679 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		44A395592F4769AF0076B679 /* ChildData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildData.swift; sourceTree = "<group>"; };
+		44A3955A2F4769AF0076B679 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		44A3955B2F4769AF0076B679 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		44A3955C2F4769AF0076B679 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		44A3955D2F4769AF0076B679 /* AppRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		44A3955E2F4769AF0076B679 /* ChildDashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildDashboardView.swift; sourceTree = "<group>"; };
+		44A3955F2F4769AF0076B679 /* TaskRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		44A395602F4769AF0076B679 /* ChildDashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildDashboardViewModel.swift; sourceTree = "<group>"; };
+		44A395622F4769AF0076B679 /* ZebraShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraShopView.swift; sourceTree = "<group>"; };
+		44A395632F4769AF0076B679 /* ZebraShopRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraShopRepository.swift; sourceTree = "<group>"; };
+		44A395642F4769AF0076B679 /* SoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		44A395652F4769AF0076B679 /* MissionZebraApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionZebraApp.swift; sourceTree = "<group>"; };
+		44A395662F4769AF0076B679 /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		44A395672F4769AF0076B679 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		44A395682F4769AF0076B679 /* TaskCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		44A395692F4769AF0076B679 /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		44A3958D2F4787FE0076B679 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = ../../../../../Downloads/WelcomeView.swift; sourceTree = "<group>"; };
+		44A3958E2F4787FE0076B679 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = ../../../../../Downloads/NavigationCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,26 +133,39 @@
 		4404FB242F40A36D0010B9E0 = {
 			isa = PBXGroup;
 			children = (
-				4423C16F2F44A3F3004ACA06 /* Models */,
-				4423C15D2F449F1D004ACA06 /* MissionZebra.swift */,
-				4404FB292F40A36D0010B9E0 /* Shared */,
-				4423C1572F449EFE004ACA06 /* Features */,
-				4423C1542F449EFE004ACA06 /* Navigation */,
-				4423C1552F449EFE004ACA06 /* Shared */,
+				44A3958E2F4787FE0076B679 /* NavigationCoordinator.swift */,
+				44A3958D2F4787FE0076B679 /* WelcomeView.swift */,
+				44A3955D2F4769AF0076B679 /* AppRoute.swift */,
+				44A395662F4769AF0076B679 /* Child.swift */,
+				44A3955E2F4769AF0076B679 /* ChildDashboardView.swift */,
+				44A395602F4769AF0076B679 /* ChildDashboardViewModel.swift */,
+				44A395592F4769AF0076B679 /* ChildData.swift */,
+				44A395562F4769AF0076B679 /* ChildRepository.swift */,
+				44A395572F4769AF0076B679 /* Colors.swift */,
+				44A3955C2F4769AF0076B679 /* LoadingView.swift */,
+				44A395652F4769AF0076B679 /* MissionZebraApp.swift */,
+				44A3955B2F4769AF0076B679 /* NetworkError.swift */,
+				44A395552F4769AF0076B679 /* NetworkManager.swift */,
+				44A395672F4769AF0076B679 /* Reward.swift */,
+				44A395502F4769AF0076B679 /* RewardCardView.swift */,
+				44A395542F4769AF0076B679 /* RewardRepository.swift */,
+				44A395692F4769AF0076B679 /* SessionService.swift */,
+				44A395642F4769AF0076B679 /* SoundService.swift */,
+				44A395522F4769AF0076B679 /* Task.swift */,
+				44A395682F4769AF0076B679 /* TaskCardView.swift */,
+				44A3955F2F4769AF0076B679 /* TaskRepository.swift */,
+				44A395512F4769AF0076B679 /* Typography.swift */,
+				44A3955A2F4769AF0076B679 /* View+Extensions.swift */,
+				44A395582F4769AF0076B679 /* WelcomeViewModel.swift */,
+				44A395632F4769AF0076B679 /* ZebraShopRepository.swift */,
+				44A395622F4769AF0076B679 /* ZebraShopView.swift */,
+				44A3954C2F4769890076B679 /* Accessory.swift */,
+				44A3954B2F4769890076B679 /* APIEndpoints.swift */,
 				4404FB382F40A36F0010B9E0 /* macOS */,
 				4404FB412F40A3700010B9E0 /* Tests iOS */,
 				4404FB4D2F40A3700010B9E0 /* Tests macOS */,
 				4404FB322F40A36F0010B9E0 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		4404FB292F40A36D0010B9E0 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				4404FB2B2F40A36E0010B9E0 /* ContentView.swift */,
-				4404FB2C2F40A36F0010B9E0 /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		4404FB322F40A36F0010B9E0 /* Products */ = {
@@ -158,19 +203,6 @@
 				4404FB502F40A3700010B9E0 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
-		4423C16F2F44A3F3004ACA06 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4423C1702F44A3F3004ACA06 /* ChildData.swift */,
-				4423C1712F44A3F3004ACA06 /* Reward.swift */,
-				4423C1722F44A3F3004ACA06 /* Child.swift */,
-				4423C1732F44A3F3004ACA06 /* Accessory.swift */,
-				4423C1742F44A3F3004ACA06 /* Task.swift */,
-			);
-			name = Models;
-			path = ../../../../../Downloads/Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,10 +330,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4423C1592F449EFE004ACA06 /* Navigation in Resources */,
-				4423C15A2F449EFE004ACA06 /* Shared in Resources */,
-				4423C15C2F449EFE004ACA06 /* Features in Resources */,
-				4404FB562F40A3700010B9E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +337,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4404FB572F40A3700010B9E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,13 +361,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4423C1752F44A3F3004ACA06 /* ChildData.swift in Sources */,
-				4423C1762F44A3F3004ACA06 /* Reward.swift in Sources */,
-				4423C1792F44A3F3004ACA06 /* Task.swift in Sources */,
-				4404FB542F40A3700010B9E0 /* ContentView.swift in Sources */,
-				4423C1782F44A3F3004ACA06 /* Accessory.swift in Sources */,
-				4423C15E2F449F1D004ACA06 /* MissionZebra.swift in Sources */,
-				4423C1772F44A3F3004ACA06 /* Child.swift in Sources */,
+				44A3954E2F4769890076B679 /* Accessory.swift in Sources */,
+				44A395762F4769AF0076B679 /* NetworkError.swift in Sources */,
+				44A395722F4769AF0076B679 /* Colors.swift in Sources */,
+				44A395732F4769AF0076B679 /* WelcomeViewModel.swift in Sources */,
+				44A3958F2F4787FE0076B679 /* WelcomeView.swift in Sources */,
+				44A395802F4769B00076B679 /* MissionZebraApp.swift in Sources */,
+				44A395902F4787FE0076B679 /* NavigationCoordinator.swift in Sources */,
+				44A395772F4769AF0076B679 /* LoadingView.swift in Sources */,
+				44A3957E2F4769B00076B679 /* ZebraShopRepository.swift in Sources */,
+				44A3957F2F4769B00076B679 /* SoundService.swift in Sources */,
+				44A395702F4769AF0076B679 /* NetworkManager.swift in Sources */,
+				44A395742F4769AF0076B679 /* ChildData.swift in Sources */,
+				44A395832F4769B00076B679 /* TaskCardView.swift in Sources */,
+				44A3957B2F4769B00076B679 /* ChildDashboardViewModel.swift in Sources */,
+				44A3954D2F4769890076B679 /* APIEndpoints.swift in Sources */,
+				44A395782F4769AF0076B679 /* AppRoute.swift in Sources */,
+				44A395842F4769B00076B679 /* SessionService.swift in Sources */,
+				44A3957D2F4769B00076B679 /* ZebraShopView.swift in Sources */,
+				44A395792F4769B00076B679 /* ChildDashboardView.swift in Sources */,
+				44A3956C2F4769AF0076B679 /* Typography.swift in Sources */,
+				44A395822F4769B00076B679 /* Reward.swift in Sources */,
+				44A3957A2F4769B00076B679 /* TaskRepository.swift in Sources */,
+				44A3956D2F4769AF0076B679 /* Task.swift in Sources */,
+				44A395712F4769AF0076B679 /* ChildRepository.swift in Sources */,
+				44A395812F4769B00076B679 /* Child.swift in Sources */,
+				44A3956F2F4769AF0076B679 /* RewardRepository.swift in Sources */,
+				44A395752F4769AF0076B679 /* View+Extensions.swift in Sources */,
+				44A3956B2F4769AF0076B679 /* RewardCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +396,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4404FB552F40A3700010B9E0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +697,6 @@
 		4404FB642F40A3700010B9E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -668,7 +714,6 @@
 		4404FB652F40A3700010B9E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
